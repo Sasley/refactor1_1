@@ -1,4 +1,17 @@
-* {
+.sr-only{
+    position: absolut
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
+@media screen (min-width: 768px) {
+    button: :focus-within
+   }
+   .search-engine-optimization 
+
+*{    
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -32,11 +45,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -198,3 +211,7 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+}
+
+
